@@ -113,6 +113,7 @@ it('can search column on the index page', function (string $column) {
         ->searchTable($search instanceof BackedEnum ? $search->value : $search)
         ->assertCanSeeTableRecords($records->filter(fn ($record) => data_get($record, $column) == $search));
 })->with(['name', 'brand.name', 'price', 'sku', 'qty', 'security_stock'])->group('column',  'index',  'page',  'resource',  'table');
+
 it('can reset table filters', function () {
     $records = Product::factory(3)->create();
 
