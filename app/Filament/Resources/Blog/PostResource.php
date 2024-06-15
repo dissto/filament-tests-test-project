@@ -166,17 +166,16 @@ class PostResource extends Resource
                 Tables\Actions\EditAction::make(),
 
                 Tables\Actions\DeleteAction::make(),
-            ])
-            ;
-//->groupedBulkActions([
-//                Tables\Actions\DeleteBulkAction::make()
-//                    ->action(function () {
-//                        Notification::make()
-//                            ->title('Now, now, don\'t be cheeky, leave some records for others to play with!')
-//                            ->warning()
-//                            ->send();
-//                    }),
-//            ]);
+            ]);
+        //->groupedBulkActions([
+        //                Tables\Actions\DeleteBulkAction::make()
+        //                    ->action(function () {
+        //                        Notification::make()
+        //                            ->title('Now, now, don\'t be cheeky, leave some records for others to play with!')
+        //                            ->warning()
+        //                            ->send();
+        //                    }),
+        //            ]);
     }
 
     public static function infolist(Infolist $infolist): Infolist
