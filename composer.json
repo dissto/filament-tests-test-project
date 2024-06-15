@@ -21,8 +21,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
         "squirephp/countries-en": "^3.3",
-        "squirephp/currencies-en": "^3.3",
-        "codewithdennis/filament-tests": "dev-main"
+        "squirephp/currencies-en": "^3.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
@@ -89,11 +88,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "C:\\Users\\disso\\Documents\\GitHub\\filament-resource-tests"
-        }
-    ]
+    "prefer-stable": true
 }

@@ -50,7 +50,7 @@ it('can list records on the index page', function () {
         ->assertCanSeeTableRecords($records);
 })->group('index',  'page',  'resource');
 
-it('xxcan list records on the index page with pagination', function () {
+it('can list records on the index page with pagination', function () {
     $records = Brand::factory(20)->create();
 
     livewire(\App\Filament\Clusters\Products\Resources\BrandResource\Pages\ListBrands::class)
