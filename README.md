@@ -2,7 +2,7 @@
 > This is a clone of the original [Filament demo](https://github.com/filamentphp/demo) with the following adjustments applied:
 
 We have: 
-- Restored bulk actions to their default. The offical demo project replaces bulk action with a message that [prevents deleting actual records](https://github.com/filamentphp/demo/blob/486b01910eaad70de6c6b36c7370d4b4f136653d/app/Filament/Resources/Blog/AuthorResource.php#L96).
+- Restored bulk actions to their default. The offical demo project replaces bulks action with a message that [prevents deleting actual records](https://github.com/filamentphp/demo/blob/486b01910eaad70de6c6b36c7370d4b4f136653d/app/Filament/Resources/Blog/AuthorResource.php#L96).
 
 ---
 
