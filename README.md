@@ -4,6 +4,8 @@
 We have: 
 - Restored bulk actions to their default. The offical demo project replaces bulk action with a message that [prevents deleting actual records](https://github.com/filamentphp/demo/blob/486b01910eaad70de6c6b36c7370d4b4f136653d/app/Filament/Resources/Blog/AuthorResource.php#L96).
 
+---
+
 # Filament Demo App
 
 A demo application to illustrate how Filament Admin works.
