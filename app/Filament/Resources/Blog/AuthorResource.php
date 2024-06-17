@@ -6,7 +6,6 @@ use App\Filament\Resources\Blog\AuthorResource\Pages;
 use App\Models\Blog\Author;
 use Filament\Forms;
 use Filament\Forms\Form;
-use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
