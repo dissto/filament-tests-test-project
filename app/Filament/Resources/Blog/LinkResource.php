@@ -118,15 +118,7 @@ class LinkResource extends Resource
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make()
-                        ->action(function () {
-                            Notification::make()
-                                ->title('Now, now, don\'t be cheeky, leave some records for others to play with!')
-                                ->warning()
-                                ->send();
-                        }),
-                ]),
+                Tables\Actions\DeleteBulkAction::make(),
             ]);
     }
 

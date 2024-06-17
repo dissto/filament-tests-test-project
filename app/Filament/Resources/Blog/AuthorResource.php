@@ -92,16 +92,11 @@ class AuthorResource extends Resource
             ->actions([
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
+            ])
+            ->bulkActions([
+                Tables\Actions\DeleteBulkAction::make(),
             ]);
-        //->groupedBulkActions([
-        //                Tables\Actions\DeleteBulkAction::make()
-        //                    ->action(function () {
-        //                        Notification::make()
-        //                            ->title('Now, now, don\'t be cheeky, leave some records for others to play with!')
-        //                            ->warning()
-        //                            ->send();
-        //                    }),
-        //            ]);
+
     }
 
     public static function getRelations(): array
